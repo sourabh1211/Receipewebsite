@@ -1,0 +1,138 @@
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+}
+.navigation ul{
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 0px;
+    border: 5px solid rgb(83, 3, 83);
+}
+.navitems{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: 900;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: black;
+    text-shadow: 0 0 3px #1bb1f2;
+    gap: 0px;
+    line-height: 50%;
+    transition: all 0.3s ease;
+
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: black;
+    gap: 0px;
+    line-height: 50%;
+    transition: all 0.3s ease;
+}
+h1:hover {
+    color: #ffffff; 
+    text-shadow: 0 0 10px #00b3ff,
+}
+
+h3:hover {
+    color: #ff0000; 
+    text-shadow: 0 0 10px #a1dcf5,
+}
+button{
+    height: 60px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 100px ;
+    color: black;
+    background-color: palegreen;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: aquamarine;
+    box-shadow: 3px 3px 20px 3px aqua;
+}
+img{
+    height: 26vh;
+    width: 60%;
+    border: 3px solid;
+    border-radius: 30px;
+    margin: 25%;
+    position: relative;
+}
+
+.fotter{
+display: flex;
+border: 2px solid;
+background:  #ad6dfc;
+justify-content: center;
+font-size: large;
+}
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 45%;
+    background-color: rgb(255, 217, 148);
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.item:hover{
+    background-color: #ff9500;
+    box-shadow: 10px 10px 10px 10px rgb(139, 50, 255);
+    transform: skew(10deg, 170deg);
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    margin-left: 0px;
+}
+
+.right img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+
